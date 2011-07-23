@@ -26,7 +26,12 @@ Usage::
 
     for record in records:
         print "\t".join([records[record]["ip"], records[record]["asn"], records[record]["as_name"], records[record]["cc"]])
-    
+   
+Installation
+============
+
+python setup.py install
+
 Implementation
 ==============
 
