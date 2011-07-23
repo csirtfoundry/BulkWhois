@@ -43,7 +43,7 @@ class BulkWhoisShadowserver(BulkWhois):
                               "register", "org_name"]
 
 if __name__ == "__main__":
-    lookups = ["201.21.203.254", "192.168.0.10", "203.20.1.2"]
+    lookups = ["201.21.203.254", "203.21.203.254", "130.102.6.192", "192.168.0.10", "203.20.1.2", "200.200.200.200", "8.8.8.8"]
     bw = BulkWhoisShadowserver()
     print "Server: " + bw.server
     print "Port: " + bw.port
