@@ -10,10 +10,14 @@ Currently implemented bulk whois servers are:
     Cymru: BulkWhoisCymru
     Shadowserver: BulkWhoisShadowserver
 
-Note that these whois servers generally only accept IP addresses, not hostnames.
-It's up to the user to convert hostnames to IP addresses first. The module 
-itself leaves validation of addresses to the respective whois server. They
-ignore invalid IP addresses in their response.
+Note that these whois servers generally only accept IPv4 IP addresses, not 
+hostnames. IPv6 support is not widely supported by bulk whois servers at
+present, but will add in support once this becomes available.
+
+So, it's up to the caller to convert hostnames to IP addresses first. 
+Anything which isn't an IPv4 address is dropped by before sending to the
+whois server.
+
 
 Usage::
 
@@ -45,7 +49,8 @@ begin
 end
 
 Note that different bulk whois servers return different data, so better to 
-choose one you're happy with and stick with it to keep things consistent.
+choose one you're happy with first and stick with it to keep things 
+consistent.
 
 For example, using different modules the sample code returns this:
 
