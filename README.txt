@@ -25,7 +25,8 @@ Usage::
     records = bulk_whois.lookup_ips(["212.58.246.91", "203.2.218.214"])
 
     for record in records:
-        print "\t".join([records[record]["ip"], records[record]["asn"], records[record]["as_name"], records[record]["cc"]])
+        print "\t".join([records[record]["ip"], records[record]["asn"], 
+                        records[record]["as_name"], records[record]["cc"]])
    
 Installation
 ============
@@ -43,8 +44,8 @@ begin
 192.168.0.2
 end
 
-Note that bulk whois servers return different data, so better to choose one
-you're happy with and stick with it to keep things consistent.
+Note that different bulk whois servers return different data, so better to 
+choose one you're happy with and stick with it to keep things consistent.
 
 For example, using different modules the sample code returns this:
 
