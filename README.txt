@@ -15,8 +15,8 @@ hostnames. IPv6 support is not widely supported by bulk whois servers at
 present, but will add in support once this becomes available.
 
 So, it's up to the caller to convert hostnames to IP addresses first. 
-Anything which isn't an IPv4 address is dropped by before sending to the
-whois server.
+Anything which isn't an IPv4 address generates a warning and is dropped 
+before sending to the whois server.
 
 
 Usage::
