@@ -2,7 +2,7 @@ __all__ = ('BulkWhois')
 
 import telnetlib
 import socket
-import warnings
+import logging 
 
 class BulkWhois(object):
     """
@@ -151,7 +151,7 @@ class BulkWhois(object):
             try:
                 socket.inet_pton(socket.AF_INET, ip)
             except socket.error:
-                warnings.showwarning("'%s' isn't an IPv4 address: ignoring" % str(ip), UserWarning, "", "")
+                logging.info("'%s' isn't an IPv4 address: ignoring" % str(ip))
             else:
                 clean_ips.append(ip)
         return clean_ips

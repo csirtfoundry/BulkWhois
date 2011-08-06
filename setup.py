@@ -6,7 +6,7 @@ setup(
     author='CSIRT Foundry / Chris Horsley',
     author_email='chris.horsley@csirtfoundry.com',
     packages=['bulkwhois'],
-    scripts=['bin/simple_bulk_whois.py'],
+    scripts=[],
     url='http://pypi.python.org/pypi/BulkWhois/',
     download_url='https://github.com/csirtfoundry/BulkWhois/tarball/master',
     license='LICENSE.txt',
