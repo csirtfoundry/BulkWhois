@@ -1,0 +1,7 @@
+385544ac06de84acaf9d4618cb3999bb  usr/share/doc/python-bulkwhois/changelog.Debian.gz
+00eacd2823be12e0fda129b32096ba51  usr/share/doc/python-bulkwhois/copyright
+6f4f8f4885ab4d1af7e1b281a2c67111  usr/share/pyshared/BulkWhois-0.2.1.egg-info
+fa7eb7c9a47fe12c50600780fce2d8fa  usr/share/pyshared/bulkwhois/__init__.py
+719e400b95a2685a7c68f3e9bc216bba  usr/share/pyshared/bulkwhois/cymru.py
+35f366ba4751add446db8635814d1861  usr/share/pyshared/bulkwhois/shadowserver.py
+4fc1457154d5cb6b2d3e7c355245f26a  usr/share/python-support/python-bulkwhois.public

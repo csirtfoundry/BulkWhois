@@ -1,0 +1,31 @@
+Package: python-bulkwhois
+Source: bulkwhois
+Version: 0.2.1-1
+Architecture: all
+Maintainer: CSIRT Foundry / Chris Horsley <chris.horsley@csirtfoundry.com>
+Installed-Size: 80
+Depends: python (>= 2.6), python-support (>= 0.90.0)
+Provides: python2.6-bulkwhois, python2.7-bulkwhois
+Section: python
+Priority: optional
+Description: Interfaces for popular bulk WHOIS servers
+ ===========
+ BulkWhois
+ ===========
+ .
+ BulkWhois provides a simple interface to several bulk whois servers. This
+ allows you to look up the ASNs, AS names, country codes, and other assorted
+ information very efficiently for a large number of IP addresses.
+ .
+ Currently implemented bulk whois servers are:
+     Cymru: BulkWhoisCymru
+     Shadowserver: BulkWhoisShadowserver
+ .
+ Note that these whois servers generally only accept IPv4 IP addresses, not
+ hostnames. IPv6 support is not widely supported by bulk whois servers at
+ present, but will add in support once this becomes available.
+ .
+ So, it's up to the caller to convert hostnames to IP addresses first.
+ Anything which isn't an IPv4 address generates a warning and is dropped
+ before sending to the whois server.
+Python-Version: 2.6, 2.7

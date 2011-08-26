@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 24 Aug 2011 23:09:58 +1000
+Source: bulkwhois
+Binary: python-bulkwhois
+Architecture: source all
+Version: 0.2.1-1
+Distribution: unstable
+Urgency: low
+Maintainer: CSIRT Foundry / Chris Horsley <chris.horsley@csirtfoundry.com>
+Changed-By: CSIRT Foundry / Chris Horsley <chris.horsley@csirtfoundry.com>
+Description: 
+ python-bulkwhois - Interfaces for popular bulk WHOIS servers
+Changes: 
+ bulkwhois (0.2.1-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.6.0
+Checksums-Sha1: 
+ aaaef07d121a12fa5f27a607d74e2a811ce784aa 792 bulkwhois_0.2.1-1.dsc
+ 3b8471997f1df66c91e2e851d4954e030d0344fe 5301 bulkwhois_0.2.1.orig.tar.gz
+ 003749bb047eb3946884f1bfb00a59b88ae6abf8 2001 bulkwhois_0.2.1-1.diff.gz
+ 7af705eee5cc6896bb26c04be37a55335ca3e295 6838 python-bulkwhois_0.2.1-1_all.deb
+Checksums-Sha256: 
+ 70a8be0de36bb26ef3a6cbddaa0c39b7435984fa8f3f51f9009786940d1eec2f 792 bulkwhois_0.2.1-1.dsc
+ 8a20906947df0a3608c495a4253d1d4ef2190fedf18ad3015b67541526932e76 5301 bulkwhois_0.2.1.orig.tar.gz
+ b8a4cc00b407cd0e926578c5cd56a62eb820edbcbb04406e38d629135907f9c9 2001 bulkwhois_0.2.1-1.diff.gz
+ 73875b038071a942e6cc1cccfe8357695fcb921c6c924b96be966b6118e8f890 6838 python-bulkwhois_0.2.1-1_all.deb
+Files: 
+ 8268530c3d243553069633af49f6f24a 792 python optional bulkwhois_0.2.1-1.dsc
+ d0e9125097893b331aa308c8434e0a3f 5301 python optional bulkwhois_0.2.1.orig.tar.gz
+ 2081135d3b0e2a3b41eeac70cd940c27 2001 python optional bulkwhois_0.2.1-1.diff.gz
+ 09b8e1061f7f94c2d1f9fc6f6c03d70b 6838 python optional python-bulkwhois_0.2.1-1_all.deb

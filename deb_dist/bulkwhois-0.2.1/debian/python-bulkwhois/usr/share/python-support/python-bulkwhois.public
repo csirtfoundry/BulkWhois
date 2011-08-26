@@ -1,0 +1,6 @@
+pyversions=2.6-
+
+/usr/share/pyshared/BulkWhois-0.2.1.egg-info
+/usr/share/pyshared/bulkwhois/__init__.py
+/usr/share/pyshared/bulkwhois/cymru.py
+/usr/share/pyshared/bulkwhois/shadowserver.py

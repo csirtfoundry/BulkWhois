@@ -2,7 +2,7 @@
 BulkWhois
 ===========
 
-BulkWhois provides a simple Python API to several bulk whois servers. This 
+BulkWhois provides a simple interface to several bulk whois servers. This 
 allows you to look up the ASNs, AS names, country codes, and other assorted
 information very efficiently for a large number of IP addresses.
 
@@ -31,30 +31,11 @@ Usage::
     for record in records:
         print "\t".join([records[record]["ip"], records[record]["asn"], 
                         records[record]["as_name"], records[record]["cc"]])
-
-It also works well through a Python shell:
-
-    >>> from bulkwhois.cymru import BulkWhoisCymru       
-    >>> bwc = BulkWhoisCymru()
-    >>> bwc.lookup_ips(["212.58.246.91"])
-    {'212.58.246.91': {'cc': 'GB', 'ip': '212.58.246.91', 'as_name': 'BBC BBC
-    Internet Services, UK', 'registry': 'ripencc', 'bgp_prefix': 
-    '212.58.224.0/19', 'allocated': '1999-10-08', 'asn': '2818'}}
-
+   
 Installation
 ============
 
-Option 1:
-
 python setup.py install
-
-Option 2:
-
-easy_install BulkWhois
-
-Option 3:
-
-dpkg -i deb_dist/python-bulkwhois_[version]-1_all.deb
 
 Implementation
 ==============
