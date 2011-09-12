@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='BulkWhois',
-    version='0.2.1',
+    version='0.2.2',
     author='CSIRT Foundry / Chris Horsley',
     author_email='chris.horsley@csirtfoundry.com',
     packages=['bulkwhois'],

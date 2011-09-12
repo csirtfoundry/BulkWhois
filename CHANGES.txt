@@ -1,2 +1,3 @@
-v0.1, 2011-07-23 -- Initial release.
-v0.2, 2011-07-24 -- Now filtering non-IPv4 addresses inside lib.
+v0.2.2, 2011-09-12 -- Fixed typo in domain in test wrapper 
+v0.2.0, 2011-07-24 -- Now filtering non-IPv4 addresses inside lib.
+v0.1.0, 2011-07-23 -- Initial release.
