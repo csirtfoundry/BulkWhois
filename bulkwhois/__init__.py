@@ -170,7 +170,7 @@ if __name__ == "__main__":
     print bw.lookup_ips_raw(lookups)
     print bw.lookup_ips(lookups)
 
-    bw2 = BulkWhois(leader="begin\nverbose", server="asn.cymru.coma")
+    bw2 = BulkWhois(leader="begin\nverbose", server="asn.cymru.com")
     bw2.field_names=["asn", "ip", "bgp_prefix", "cc", "registry", "allocated", "as_name"]
     print bw2.lookup_ips_raw(lookups)
     print bw2.lookup_ips(lookups)
